@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		1106D14C274AD6BA005C3B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106D14B274AD6BA005C3B1F /* AppDelegate.swift */; };
 		1106D14E274AD6BA005C3B1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106D14D274AD6BA005C3B1F /* SceneDelegate.swift */; };
-		1106D150274AD6BA005C3B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106D14F274AD6BA005C3B1F /* ViewController.swift */; };
+		1106D150274AD6BA005C3B1F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106D14F274AD6BA005C3B1F /* MainViewController.swift */; };
 		1106D153274AD6BA005C3B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1106D151274AD6BA005C3B1F /* Main.storyboard */; };
 		1106D155274AD6BC005C3B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1106D154274AD6BC005C3B1F /* Assets.xcassets */; };
 		1106D158274AD6BC005C3B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1106D156274AD6BC005C3B1F /* LaunchScreen.storyboard */; };
+		1106D160274AD6DB005C3B1F /* LetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106D15F274AD6DB005C3B1F /* LetterView.swift */; };
+		1106D162274B7B25005C3B1F /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106D161274B7B24005C3B1F /* Grid.swift */; };
+		1106D164274C30B0005C3B1F /* LetterGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106D163274C30B0005C3B1F /* LetterGenerator.swift */; };
+		1106D166274C3FC6005C3B1F /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106D165274C3FC6005C3B1F /* Trie.swift */; };
+		1106D168274C41CA005C3B1F /* enable1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1106D167274C41C9005C3B1F /* enable1.txt */; };
+		1106D16A274C4E6F005C3B1F /* WordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106D169274C4E6F005C3B1F /* WordCollectionViewCell.swift */; };
+		1106D16C274CD207005C3B1F /* TDK.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1106D16B274CD207005C3B1F /* TDK.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1106D148274AD6BA005C3B1F /* word finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "word finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1106D14B274AD6BA005C3B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1106D14D274AD6BA005C3B1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1106D14F274AD6BA005C3B1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1106D14F274AD6BA005C3B1F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1106D152274AD6BA005C3B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1106D154274AD6BC005C3B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1106D157274AD6BC005C3B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1106D159274AD6BC005C3B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1106D15F274AD6DB005C3B1F /* LetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterView.swift; sourceTree = "<group>"; };
+		1106D161274B7B24005C3B1F /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		1106D163274C30B0005C3B1F /* LetterGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGenerator.swift; sourceTree = "<group>"; };
+		1106D165274C3FC6005C3B1F /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		1106D167274C41C9005C3B1F /* enable1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = enable1.txt; sourceTree = "<group>"; };
+		1106D169274C4E6F005C3B1F /* WordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCollectionViewCell.swift; sourceTree = "<group>"; };
+		1106D16B274CD207005C3B1F /* TDK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TDK.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +70,20 @@
 		1106D14A274AD6BA005C3B1F /* word finder */ = {
 			isa = PBXGroup;
 			children = (
+				1106D167274C41C9005C3B1F /* enable1.txt */,
 				1106D14B274AD6BA005C3B1F /* AppDelegate.swift */,
 				1106D14D274AD6BA005C3B1F /* SceneDelegate.swift */,
-				1106D14F274AD6BA005C3B1F /* ViewController.swift */,
+				1106D14F274AD6BA005C3B1F /* MainViewController.swift */,
+				1106D16B274CD207005C3B1F /* TDK.txt */,
+				1106D169274C4E6F005C3B1F /* WordCollectionViewCell.swift */,
+				1106D161274B7B24005C3B1F /* Grid.swift */,
+				1106D163274C30B0005C3B1F /* LetterGenerator.swift */,
+				1106D15F274AD6DB005C3B1F /* LetterView.swift */,
 				1106D151274AD6BA005C3B1F /* Main.storyboard */,
 				1106D154274AD6BC005C3B1F /* Assets.xcassets */,
 				1106D156274AD6BC005C3B1F /* LaunchScreen.storyboard */,
 				1106D159274AD6BC005C3B1F /* Info.plist */,
+				1106D165274C3FC6005C3B1F /* Trie.swift */,
 			);
 			path = "word finder";
 			sourceTree = "<group>";
@@ -125,7 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1106D16C274CD207005C3B1F /* TDK.txt in Resources */,
 				1106D158274AD6BC005C3B1F /* LaunchScreen.storyboard in Resources */,
+				1106D168274C41CA005C3B1F /* enable1.txt in Resources */,
 				1106D155274AD6BC005C3B1F /* Assets.xcassets in Resources */,
 				1106D153274AD6BA005C3B1F /* Main.storyboard in Resources */,
 			);
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1106D150274AD6BA005C3B1F /* ViewController.swift in Sources */,
+				1106D162274B7B25005C3B1F /* Grid.swift in Sources */,
+				1106D150274AD6BA005C3B1F /* MainViewController.swift in Sources */,
+				1106D16A274C4E6F005C3B1F /* WordCollectionViewCell.swift in Sources */,
+				1106D160274AD6DB005C3B1F /* LetterView.swift in Sources */,
+				1106D166274C3FC6005C3B1F /* Trie.swift in Sources */,
 				1106D14C274AD6BA005C3B1F /* AppDelegate.swift in Sources */,
 				1106D14E274AD6BA005C3B1F /* SceneDelegate.swift in Sources */,
+				1106D164274C30B0005C3B1F /* LetterGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +317,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YH5JCVAK6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "word finder/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +345,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YH5JCVAK6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "word finder/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
