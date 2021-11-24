@@ -123,7 +123,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
       grid.clearAllSelected()
       
       if trie.contains(word: result) && !foundWords.contains(result) {
-        foundWords.append(result)
+        foundWords.insert(result, at: 0)
         tableView.reloadData()
       }
     }

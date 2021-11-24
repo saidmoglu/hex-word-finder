@@ -10,7 +10,7 @@ import UIKit
 class LetterView: UIView {
   
   static let side = 84
-  
+  let shapeLayer = CAShapeLayer()
   let letterLabel = UILabel()
   
   override init(frame: CGRect) {
@@ -37,11 +37,10 @@ class LetterView: UIView {
     path.addLine(to: CGPoint(x: path.currentPoint.x-hexside*(sqrt(3)/2.0), y: path.currentPoint.y-hexside/2.0))
     path.addLine(to: CGPoint(x: path.currentPoint.x-hexside*(sqrt(3)/2.0), y: path.currentPoint.y+hexside/2.0))
     
-    let shapeLayer = CAShapeLayer()
     shapeLayer.path = path.cgPath
     shapeLayer.strokeColor = UIColor.black.cgColor
     shapeLayer.fillColor = UIColor.orange.cgColor
-    shapeLayer.lineWidth = 3
+    shapeLayer.lineWidth = 4
     self.layer.addSublayer(shapeLayer)
     
   }
@@ -55,6 +54,7 @@ class LetterView: UIView {
   }
   
   func highlight(){
+    shapeLayer.fillColor = UIColor.darkGray.cgColor
     let animationScaleFactor: CGFloat = 1.5
     // Scale up the letter if it's selected.
     let transform = CGAffineTransform(scaleX: animationScaleFactor, y: animationScaleFactor)
@@ -64,6 +64,7 @@ class LetterView: UIView {
   }
   
   func deHighlight(){
+    shapeLayer.fillColor = UIColor.orange.cgColor
     let animationScaleFactor: CGFloat = 1.0
     let transform = CGAffineTransform(scaleX: animationScaleFactor, y: animationScaleFactor)
     UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: 5, options: [], animations: {
